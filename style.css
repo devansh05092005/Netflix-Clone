@@ -11,7 +11,32 @@
 .main .box{
     width: 100%;
     height: 110vh;
-    opacity: 0.44;
+    opacity: 0.54;
+    background-color: black;
     position: absolute;
     top: 0;
+}
+.Z-index{
+    position: relative;
+    z-index: 1;
+}
+.Navbar{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo > img{
+    color: red;
+    width: 200px;
+}
+.Essentials{
+    display: flex;
+}
+.Language-option{
+    border: 2px solid black;
+    background-color: black;
+}
+.SignIn{
+    background-color: red;
 }
