@@ -8,12 +8,12 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height:110vh;
+    height:100vh;
     position: relative;
 }
 .main .box{
     width: 100%;
-    height: 110vh;
+    height: 100%;
     opacity: 0.54;
     background-color: black;
     position: absolute;
@@ -26,37 +26,42 @@
 .Navbar{
     width: 71%;
     margin: auto;
-    padding:25px;
+    padding-top:30px;
     display: flex;
     justify-content: space-between;
+
 }
 .logo > img{
     width: 185px;
 }
 .Essentials{
-    width: 16.5vw;
-    height: 6vh;
-    margin:5px 500px;
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    /* border: 2px solid red; */
+    align-items: center;
+    padding-right: 20px;
 }
 .Language-option {
-    color: white;
     background-color: black;
-    border:2px solid red;
-    height: 1em; 
-    width: 10em;
+    border: 1px solid rgb(134, 122, 122);
+    margin-right: 10px;
+    height: 40px;
+    width: 140px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Language-option img{
-    height: 10px;
-    width: 30px;
+.Language_logo img{
+    height: 18px;
+    width: 18px;
+    padding-top: 4px;
+    padding-right: 4px;
 }
 .Language{
     background-color: black;
     color: white;
-    border: 1px solid black;
+    border: none;
+    outline: none;
+    font-size: 18px;
 }
 .SignIn{
     background-color: red;
@@ -65,4 +70,17 @@
     height: 6.5vh;
     border: 1px solid black;
     border-radius: 5px;
+    font-weight: 550;
+}
+.header-line{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-line1, .header-line2{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
 }
