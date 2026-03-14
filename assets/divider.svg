@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 40" preserveAspectRatio="none">
+  <defs>
+    <!-- Red / Magenta stroke -->
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="magenta" stop-opacity="0"/>
+      <stop offset="20%" stop-color="magenta" stop-opacity="1"/>
+      <stop offset="50%" stop-color="red" stop-opacity="1"/>
+      <stop offset="80%" stop-color="magenta" stop-opacity="1"/>
+      <stop offset="100%" stop-color="magenta" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Blue fade down -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="blue" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="blue" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Blue filled area under arc -->
+  <path d="M0,40 Q50,-10 100,40 L100,40 L0,40 Z"
+        fill="url(#blueGrad)"/>
+
+  <!-- Thin arc on top -->
+  <path d="M0,40 Q50,-10 100,40"
+        stroke="url(#strokeGrad)"
+        stroke-width="1"
+        fill="none"
+        stroke-linecap="round"/>
+</svg>
