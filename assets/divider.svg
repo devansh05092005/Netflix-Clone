@@ -10,16 +10,17 @@
 
     <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="blue" stop-opacity="0.6"/>
-      <stop offset="40%" stop-color="black" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="black" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="black" stop-opacity="1"/>
     </linearGradient>
   </defs>
 
-  <!-- Slightly taller curve -->
-  <path d="M0,40 Q50,0 100,40 L100,40 L0,40 Z"
+  <!-- Filled area -->
+  <path d="M0,34 Q50,0 100,34 L100,40 L0,40 Z"
         fill="url(#blueGrad)"/>
 
-  <path d="M0,40 Q50,0 100,40"
+  <!-- Arc -->
+  <path d="M0,34 Q50,0 100,34"
         stroke="url(#strokeGrad)"
         stroke-width="1"
         fill="none"

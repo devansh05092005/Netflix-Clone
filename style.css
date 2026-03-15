@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    /* background-color: black; */
+    background-color: black;
 }
 .main{
     background-image: url(assets/Netflix\ Background\ image.jpg);
@@ -11,8 +11,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height:100vh;
+    min-height:100vh;
     position: relative;
+    overflow: hidden;
+
 }
 .main .box{
     width: 100%;
@@ -147,4 +149,13 @@ body{
     position: absolute;
     left: 0;
     right: 0;
+}
+.Trending{
+    color: white;
+    width: 71%;
+    margin: auto;
+    font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    
 }
