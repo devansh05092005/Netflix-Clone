@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    /* background-color: black; */
+}
 .main{
     background-image: url(assets/Netflix\ Background\ image.jpg);
     background-size: cover;
@@ -131,4 +134,17 @@
     border: 1px solid red;
     border-radius: 5px;
     padding-bottom: 8px;
+}
+.divider{
+    width: 100%;
+    position: relative;
+}
+.divider > img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
