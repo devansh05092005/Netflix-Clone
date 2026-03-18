@@ -150,7 +150,7 @@ body{
     left: 0;
     right: 0;
 }
-.Trending{
+.trending{
     color: white;
     width: 71%;
     margin: auto;
@@ -158,4 +158,46 @@ body{
     font-size: 30px;
     font-weight: 600;
     
+}
+.trending-movie{
+    width: 71%;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trending-movie-div{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movie-poster1 img{
+    border-radius: 5px;
+    padding: 40px;
+}
+.movie-poster2 img{
+    border-radius: 5px;
+    padding: 40px;
+}
+.movie-poster3 img{
+    border-radius: 5px;
+    padding: 40px;
+}
+.movie-number{
+    color: white;
+    font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+    font-size: 125px;
+    font-weight: 700;
+}
+.trending-button{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 150px;
+    width: 30px;
+    font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
 }
