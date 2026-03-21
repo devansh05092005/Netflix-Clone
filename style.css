@@ -201,3 +201,13 @@ body{
     width: 30px;
     font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
 }
+.more-reason{
+    color: white;
+    width: 71%;
+    margin: auto;
+    font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
