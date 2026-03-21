@@ -173,24 +173,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
-.movie-poster1 img{
-    border-radius: 5px;
-    padding: 40px;
+.movie-card {
+    position: relative;
 }
-.movie-poster2 img{
-    border-radius: 5px;
-    padding: 40px;
-}
-.movie-poster3 img{
-    border-radius: 5px;
-    padding: 40px;
+.movie-card img {
+    width: 230px;
+    border-radius: 8px;
 }
 .movie-number{
-    color: white;
+    color: black;
+    -webkit-text-stroke: 2px white;
     font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
     font-size: 125px;
     font-weight: 700;
+    position: absolute ;
+    bottom: -10px;
+    left: -30px;
 }
 .trending-button{
     color: white;
