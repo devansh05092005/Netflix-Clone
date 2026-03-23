@@ -291,20 +291,20 @@ body {
     font-size: 30px;
     font-weight: 500;
     margin-top: 65px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 .frequency{
-    width: 71%;
+    width: 67%;
     color: white;
     font-family: 'Inter', 'Helvetica Neue', 'Segoe UI', Roboto, Ubuntu, sans-serif;
     font-size: 30px;
     font-weight: 400;
     background-color: rgb(50, 50, 50);
-    height: 80px;
+    height: 52px;
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin:none;
-    padding: 20px;
+    padding: 25px;
 }
