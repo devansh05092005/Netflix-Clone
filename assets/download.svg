@@ -1,0 +1,27 @@
+<svg width="65" height="65" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Clean purple background gradient -->
+    <radialGradient id="bgGradient" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(36 36) scale(34)">
+      <stop stop-color="#FFB6D5"/>
+      <stop offset="1" stop-color="#8A2BE2"/>
+    </radialGradient>
+
+    <!-- Arrow gradient -->
+    <linearGradient id="arrowGradient" x1="36" y1="20" x2="36" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3B6B"/>
+      <stop offset="1" stop-color="#6A0DAD"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Single clean circle -->
+  <circle cx="36" cy="36" r="34" fill="url(#bgGradient)"/>
+
+  <!-- Down arrow -->
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M39.0849 42.2727L46.3387 35.76L48.8945 38.5142L38.9118 47.477L37.8466 48.4333L36.6071 47.477L24.9899 38.5142L27.0434 35.76L35.4849 42.2727L33.6 21.6016H37.2L39.0849 42.2727Z"
+    fill="url(#arrowGradient)"/>
+
+</svg>
