@@ -1,0 +1,105 @@
+<svg width="65" height="65" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Back face gradients -->
+    <radialGradient id="paint0" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(28 28) scale(32)">
+      <stop stop-color="#E8A7B8"/>
+      <stop offset="1" stop-color="#B56ACB"/>
+    </radialGradient>
+
+    <radialGradient id="paint1" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(28 28) scale(30)">
+      <stop stop-color="#F3B6C4"/>
+      <stop offset="1" stop-color="#C77DFF"/>
+    </radialGradient>
+
+    <!-- Back face eyes + smile -->
+    <radialGradient id="paint2" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(16.5 21.9) scale(6)">
+      <stop stop-color="#8B1C4A"/>
+      <stop offset="1" stop-color="#5A0F32"/>
+    </radialGradient>
+
+    <radialGradient id="paint3" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(37.5 21.9) scale(6)">
+      <stop stop-color="#B71C1C"/>
+      <stop offset="1" stop-color="#7F0000"/>
+    </radialGradient>
+
+    <radialGradient id="paint4" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(30 30) scale(18)">
+      <stop stop-color="#8E244D"/>
+      <stop offset="1" stop-color="#6A1B9A"/>
+    </radialGradient>
+
+    <radialGradient id="paint5" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(24 36) scale(20)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Front face gradient -->
+    <radialGradient id="paint6" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(45 45) scale(32)">
+      <stop stop-color="#FF5F6D"/>
+      <stop offset="1" stop-color="#9C1AFF"/>
+    </radialGradient>
+
+    <radialGradient id="paint7" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(34.5 39.9) scale(6)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E0E0E0"/>
+    </radialGradient>
+
+    <radialGradient id="paint8" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(55.5 39.9) scale(6)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E0E0E0"/>
+    </radialGradient>
+
+    <radialGradient id="paint9" cx="0" cy="0" r="1"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(48 48) scale(20)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8BBD0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Back face -->
+  <path d="M10.8 15.6008C10.8 12.9499 12.949 10.8008 15.5999 10.8008H40.8C43.4509 10.8008 45.6 12.9498 45.6 15.6008V40.8007C45.6 43.4516 43.4509 45.6007 40.8 45.6007H15.6C12.949 45.6007 10.8 43.4517 10.8 40.8007V15.6008Z" fill="url(#paint0)"/>
+
+  <path d="M9.59998 14.4016C9.59998 11.7506 11.749 9.60156 14.4 9.60156H39.6C42.251 9.60156 44.4 11.7506 44.4 14.4016V39.6015C44.4 42.2525 42.251 44.4015 39.6 44.4015H14.4C11.749 44.4016 9.59998 42.2525 9.59998 39.6015V14.4016Z" fill="url(#paint1)"/>
+
+  <!-- Back face features -->
+  <circle cx="16.5" cy="21.9008" r="2.1" fill="url(#paint2)"/>
+  <circle cx="37.5" cy="21.9008" r="2.1" fill="url(#paint3)"/>
+
+  <path d="M23.6713 29.4501C23.2437 29.1967 22.6917 29.3379 22.4383 29.7655C22.1848 30.1932 22.3261 30.7452 22.7537 30.9986C23.8254 31.6337 26.769 32.7744 30.6375 32.7744C34.506 32.7744 37.4497 31.6337 38.5213 30.9986C38.949 30.7452 39.0902 30.1932 38.8368 29.7655C38.5834 29.3379 38.0313 29.1967 37.6037 29.4501C36.8191 29.9151 34.194 30.9744 30.6375 30.9744C27.081 30.9744 24.456 29.9151 23.6713 29.4501Z"
+        fill="url(#paint4)"/>
+
+  <path opacity="0.35"
+        d="M19.2 44.4016H28.2L32.4 27.6016C30.2787 28.1801 28.4542 29.5387 27.2921 31.4053L19.2 44.4016Z"
+        fill="url(#paint5)"/>
+
+  <!-- Front face -->
+  <path d="M27.6 32.4016C27.6 29.7506 29.749 27.6016 32.4 27.6016H57.6C60.2508 27.6016 62.4 29.7506 62.4 32.4016V57.6015C62.4 60.2524 60.2508 62.4016 57.6 62.4016H32.4C29.749 62.4016 27.6 60.2524 27.6 57.6016V32.4016Z"
+        fill="url(#paint6)"/>
+
+  <!-- Front face features -->
+  <circle cx="34.5" cy="39.9008" r="2.1" fill="url(#paint7)"/>
+  <circle cx="55.5" cy="39.9008" r="2.1" fill="url(#paint8)"/>
+
+  <path d="M41.8213 47.6025C41.3937 47.349 40.8416 47.4903 40.5882 47.9179C40.3348 48.3455 40.476 48.8976 40.9037 49.1509C41.9753 49.786 44.919 50.9267 48.7875 50.9267C52.656 50.9267 55.5996 49.786 56.6713 49.1509C57.0989 48.8976 57.2402 48.3455 56.9867 47.9179C56.7333 47.4903 56.1813 47.349 55.7537 47.6025C54.969 48.0674 52.344 49.1267 48.7875 49.1267C45.231 49.1267 42.6059 48.0674 41.8213 47.6025Z"
+        fill="url(#paint9)"/>
+
+</svg>
